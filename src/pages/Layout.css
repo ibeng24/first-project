@@ -1,0 +1,34 @@
+.Layout-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.074);
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active{
+    background-color: #04aa6d;
+    color: white;
+}
